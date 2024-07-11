@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Previsão do Tempo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    
+    <div class="caixa-maior">
+
+        <input class="input-cidade" placeholder="Digite o nome da cidade.">
+        <button onclick='cliqueiNoBotao()'><img src="./assets/lupa.webp" alt="buscar" class="lupa1"></button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em ?</h2>
+            <p class="temp">?°C</p> 
+
+            <div class="caixa-menor">
+                <p class="descricao">?</p>
+                <img class="icone" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHElEQVR4nO2P/WtTdxSHI047f9iKgk4Ut0Zv1SRtMU3bNZprSWlvWkual3nT3LhGkqyd0dZaDKIgKdaXFkVtxBeSbmPYQF2NQjNnKptmGzJ8G/MXZ4ewzSnrGKh/wiMRLHQo67gdCPYDBw58n/N9ztFopjOd1y5CO/MLwkQLwlzVhvldu5lRbZjT2jDl/5u06CM8+hYeGlrp1m3CWBxm7oogi/St+Awt3DG0khTayZtSqSnA+rIgdys3I5QFiZgCjJoCpJ6/V3XxhinI8bIgI7l+SqSVIeZZ/DywNLNc9JO2+PnKEmBpTSv5E0lmWJpJic1sq9rIQoufTtHPCbGZ/aKfiv8slnxstykckhTabAqXaprQ2RRuSwqf/JO1NVFg8/HIpvCr5OOgpLDBptAh+fhF8tEvy8yctNgpM+KUsThkfnR5KHJ4uO5swv0y3uHhlN3LO7m+0UON08MRWeZdp0zaIbN30mLFzW2fm/e8bj6rqyPP6yI+2dkPXSzwutnhdXG3ycESxcVYsJG3JjUcbCQTslOiUZGQnWTIjjtkZzjYiPVfB7Y2ULSlnitt69iqRtwpM6e9jrwt9Zxra0B8KdhVxZuRWj6N1DIaqaU3IvGBGvGzP2VmR2r5e4dEILfEC6GolcGuak5uH0bb8QO72q/xtmpxDYuiVjqj1XwRrebebiuGCcB+C2t613LrwAjCnu943P09dGVZqEYaNzGrZy0dPSKJHhHHgSrqekXuHa5kzjjUZ2Zfn5mO+DccS1yGXB1XKY6ZORVbzWBsDZ6YmZ/6zMgxM58frcQ/DvWXc7S/nI3pDIPpDOTqwgV14kQFY8+vi5dRn6jgTH8FHyfKOTQOJUtpGSglfnMY5UYacnVdpXjAyNXTJpxomJE00jdQyt6kke6kkd3j0JCJ/FQxf54t4f37KXb+cZa/fhtSJx5ahT5Vwq1UMU/OFZMaNLAkVcKD8wZ0E8ARA9aMjrGLejq/LGRxblPNFOTrpeRnVtKQ0XHnop6dL4QuCyzLCsSzAj9nBR5lC3mstr4VeJgt5NKVQhqm4pDpTOfVzVOVCOMR+BmsEAAAAABJRU5ErkJggg==" alt="nuvem">
+            </div>
+
+            <p class="umidade">Umidade: ?%</p>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

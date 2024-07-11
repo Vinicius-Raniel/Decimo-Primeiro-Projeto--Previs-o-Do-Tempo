@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-image: url('./assets/fundo.png');
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100vw;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.lupa1 {
+    height: 50px;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    float: right;
+}
+button:hover{
+    background-color: rgb(160, 209, 209);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.caixa-maior {
+    background-color: black;
+    max-width: 600px;
+    width: 80%;   
+    opacity: 0.8;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.caixa-media {
+    margin-top: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+.caixa-menor {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.descricao{
+ margin-right: 10px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+
+p {
+    margin-top: 30px;
+
+}
